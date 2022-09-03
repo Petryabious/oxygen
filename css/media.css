@@ -98,9 +98,11 @@
     .header__container{
         min-height: 40px;
         padding: 10px 15px 0;
+        
     }
     .header__logo {
         flex: 0 0 30px;
+        
     }
     .menu__burger{
         display: block;
@@ -282,6 +284,9 @@
     flex: 0 1 100%;
     padding: 100px 0px;
 }
+    .footer__body {
+    padding: 60px 0 ;
+  }
 }
 
 
@@ -392,6 +397,9 @@
     }
     .form-input__text {
         min-height: 30px;
+    }
+    .footer__theme {
+        padding: 21px 0;
     }
 }
 

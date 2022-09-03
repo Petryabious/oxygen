@@ -23,6 +23,9 @@ body{
   background: #fff;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -87,6 +90,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #fff;
 }
 .header__logo {
   flex: 0 0 42px;
@@ -817,23 +821,84 @@ padding: 0 0 0 10px;
 
 
 /* -----------footer---------------- */
-.footer {}
+.footer {
+  background: #373A39;
+  text-align: center;
+}
 .footer__container {}
 
-.footer__body {}
-.footer__logo {}
+.footer__body {
+  padding: 110px 0 60px 0;
+}
+.footer__logo {
+  max-width: 158px;
+  padding: 0 0 25px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #FCBB08;
+  margin: 0 auto 75px ;
+}
 .footer__social-network {}
 .footer__contacts {}
 
-.social-network {}
-.social-network__link {}
+.social-network {
+  margin: 0 0 65px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.social-network__link {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  transition: color 0.3s ease-in 0s;
+}
 
 
-.contacts {}
+.social-network__link:hover{
+  color: #FCBB08 ;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  line-height:2.2;
+  color: #A8A8A8;
+  margin: 0 0 55px 0;
+}
 .contacts__address {}
 .contacts__phone {}
 .contacts__email {}
-.contacts__back {}
+.contacts__address,
+.contacts__phone,
+.contacts__email {
+  transition: color 0.3s ease-in 0s;
 
-.footer__theme {}
-.footer__text {}
+}
+.contacts__address:hover,
+.contacts__phone:hover,
+.contacts__email:hover {
+  color: #FCBB08 ;
+}
+
+.footer__back {
+
+}
+.footer__arrow{
+}
+
+.footer__theme {
+  padding: 42px 0;
+  background: #2A2C2B;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #CCCCCC;
+}

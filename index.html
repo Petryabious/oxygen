@@ -28,28 +28,28 @@
                 <nav class="header__menu menu">
                     <ul class="menu__list">
                         <li class="menu__item menu__item_active">
-                            <a href="#!" class="menu__link">HOME</a>
+                            <a href="#home" class="menu__link">HOME</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#!" class="menu__link">ABOUT US</a>
+                            <a href="#about-us" class="menu__link">ABOUT US</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#!" class="menu__link">PORTFOLIO</a>
+                            <a href="#portfolio" class="menu__link">PORTFOLIO</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#!" class="menu__link">OUR TEAM</a>
+                            <a href="#our-team" class="menu__link">OUR TEAM</a>
                         </li>
                         <li class="menu__item">
                             <a href="#!" class="menu__link">BLOG</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#!" class="menu__link">CONTACT</a>
+                            <a href="#contacts" class="menu__link">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main class="page">
+        <main class="page" id="home">
             <!-- main-block -->
             <section class="main-block">
                 <div class="main-block__container container">
@@ -66,7 +66,7 @@
                 </div>
             </section>
             <!-- about-us -->
-            <section class="about-us">
+            <section class="about-us" id="about-us">
                 <div class="about-us__container container">
                     <div class="about-us__contant">
                         <div class="about-us__left-wrapper ">
@@ -194,7 +194,7 @@
             </div>
             </section>
             <!-- portfolio -->
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
                 <div class="portfolio__container container">
                     <div class="portfolio__top">
                     <div class="portfolio__wrapper ">
@@ -369,7 +369,7 @@
                     </div>
                 </div>
             </section>
-            <section class="our-team">
+            <section class="our-team" id="our-team">
                 <div class="our-team__container container">
                     <div class="our-team___top ">
                         <h2 class="our-team___title title-block">Our Team</h2>
@@ -478,7 +478,7 @@
                 </div>
             </section>
             <!-- Get in Touch -->
-            <section class="get-in-touch">
+            <section class="get-in-touch" id="contacts">
                 <div class="get-in-touch__contant">
                     <div class="get-in-touch__left-wrapper">
                         <div class="get-in-touch__container container">
@@ -504,7 +504,9 @@
         <footer class="footer">
             <div class="footer__container container">
                 <div class="footer__body">
-                    <div class="footer__logo"></div>
+                    <div class="footer__logo">
+                        <img src="./img/header/Logo.svg" alt="logo">
+                    </div>
                     <div class="footer__social-network social-network">
                         <a href="#!" class="social-network__link">FACEBOOK</a>
                         <a href="#!" class="social-network__link">TWITTER</a>
@@ -518,7 +520,11 @@
                         <a href="#!" class="contacts__phone">(00387) 65 252 222</a>
                         <a href="#!" class="contacts__email">info@mail.com</a>
                     </div>
-                    <div class="contacts__back"></div>
+                    <div class="footer__back">
+                        <a href="#!" class="footer__arrow">
+                            <img src="./icons/angle-up.svg" alt="arrow-up">
+                        </a>
+                    </div>
                 </div>
                 
             </div>
